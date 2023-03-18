@@ -1,4 +1,13 @@
 .middle{
 	flex:0.55;
 	background-color:white;
+	display:flex;
+	flex-direction:column;
+}
+
+.main{
+	flex:0.8;
+}
+.title{
+	flex:0.15;
 }
