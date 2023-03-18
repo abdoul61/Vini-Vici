@@ -1,0 +1,8 @@
+
+.right{
+	flex:0.2;
+	background-color:rgb(91,109,140);
+	width:90%;
+	height:inherit;
+	position:sticky;
+}

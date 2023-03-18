@@ -1,10 +1,15 @@
 import './App.css'
+import Left from './components/Left'
+import Middle from './components/Middle'
+import Right from './components/Right'
 
 function App() {
 
   return (
     <div className="App">
-			Hello this is the new app 
+			<Left/>			
+			<Middle/>
+			<Right/>
    </div>
   )
 }
