@@ -5,7 +5,7 @@ import Starter from './middle/Starter';
 const Middle = () =>{
 const [show,setShow] = useState(false);
 const handleButtonClick = () =>{
-    setShow(!show);
+    setShow(true);
 	}
 	return (
 	   <div className="middle">
