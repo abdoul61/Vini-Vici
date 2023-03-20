@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import "./Middle.css"
+import Card from './middle/Card';
 import Starter from './middle/Starter';
 
 const Middle = () =>{
@@ -11,7 +12,7 @@ const handleButtonClick = () =>{
 	   <div className="middle">
 			<h1 className="title">Vini vici !</h1>
 			<div className="main">
-			{ !show && <Starter/>}
+			{ !show ?  <Starter/>: <Card/>}
 				<button onClick={handleButtonClick}className="button">
 					Discover
 				</button>

@@ -5,7 +5,7 @@ import "./Left.css";
 const Left = () =>{
 	return (
 		 <div className="left">
-			i am the left side
+			<h2>Puppies Seen So Far!</h2>
 		</div>
 		);
 

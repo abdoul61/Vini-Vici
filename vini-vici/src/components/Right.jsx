@@ -4,7 +4,7 @@ import './Right.css';
 const Right = () =>{
 	return (
 	   <div className="right">
-			this is the Right side
+			<h2>Banned attributes List</h2>
 		</div>
 	)
 }
