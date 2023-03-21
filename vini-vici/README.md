@@ -22,7 +22,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented required features:
 
-https://user-images.githubusercontent.com/43356482/226513476-977a9c91-b095-4368-be8f-dbdf671836bf.gif
+https://user-images.githubusercontent.com/43356482/226527052-190827f8-cddd-4891-bf3b-dc8472ce19d2.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
