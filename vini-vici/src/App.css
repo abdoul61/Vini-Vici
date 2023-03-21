@@ -58,6 +58,7 @@
 
 .right{
 	flex:0.2;
+	flex-direction:column;
 	background-color:rgb(91,109,140);
 	width:100%;
 	height:50%;
@@ -65,3 +66,29 @@
 	position:-webkit-sticky;
 	top:0;
 }
+.lst{
+	display:flex;
+	flex-direction:column;
+	height:10rem;
+}
+
+.btt2{
+	width:1em;
+	flex:0.3
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

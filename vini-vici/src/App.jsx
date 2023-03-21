@@ -11,6 +11,8 @@ const [show,setShow] = useState(false);
 const [index,setIndex] = useState(0);
 const [name,setName] = useState('');
 const [seenData,setSeenData] = useState([]);
+const [fileterData,setFilterData] = useState([]);
+// const [fileterW,setFilterWD] = useState([]);
 
 const handleButtonClick = () =>{
     setShow(true);
@@ -22,6 +24,29 @@ const handleButtonClick = () =>{
 
 		setSeenData([...seenData,newData]);
 	}
+
+const addG = ()=>{
+		let newData = dta[index].breeds[0].breed_group;
+		setFilterData([...fileterData,newData]);
+	}
+
+const addW = ()=>{
+		let newData = dta[index].breeds[0].weight_metric;
+		setFilterData([...fileterData,newData]);
+	}
+
+const addA = () =>{
+		let newData = dta[index].breeds[0].life_span;
+		setFilterData([...fileterData,newData]);
+
+	}
+
+
+
+
+
+
+
 
 
 const key = import.meta.env.VITE_API;
@@ -43,10 +68,13 @@ useEffect(()=>{
 	},[])
 
 const seendata =seenData.map((elem,index)=>{
-		return <h2 key={index}>{elem}</h2>
+		return <h3 key={index}>{elem} ✅</h3>
 	})  
 
-	console.log(seenData);
+const filterD = fileterData.map((el,index)=>{
+		return <button className="butt2" key={index}>{el}</button>
+	})
+//	console.log(seenData);
 
 
 
@@ -54,6 +82,7 @@ const seendata =seenData.map((elem,index)=>{
   return (
     <div className="App">
 	 		 <div className="left">
+				<h2>Aleady Seen!✅</h2>
 				{seendata}
 				</div>
 
@@ -66,6 +95,9 @@ const seendata =seenData.map((elem,index)=>{
 						weight={dta && dta[index].breeds[0].weight.metric }
 						group={dta && dta[index].breeds[0].breed_group}
 						lifeSpan={dta && dta[index].breeds[0].life_span }
+						addGroup={addG}
+						addW={addW}
+						addA={addA}
 
 
 				/>}
@@ -75,10 +107,12 @@ const seendata =seenData.map((elem,index)=>{
 			</div>
 		</div>
 			<div className="right">
-			<h2></h2>
+			<h2 >Click to add filter!🎯</h2>
+			<div className="lst">
+
+			{filterD}
+				</div>
 		</div>
-
-
    </div>
   )
 }
