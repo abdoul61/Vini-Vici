@@ -15,4 +15,53 @@
 	height:80rem;
 }
 
+.middle{
+	flex:0.55;
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+}
 
+.main{
+	flex:0.9;
+}
+.title{
+	flex:0.03;
+}
+.button{
+	width:10rem;
+	height:3rem;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none ;
+	margin-top:30px;
+}
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+.left{
+	flex:0.2;
+	background-color:pink;
+	width:100%;
+	height:50%;
+	position:sticky;
+	position:-webkit-sticky;
+	top:0;
+}
+
+
+.right{
+	flex:0.2;
+	background-color:rgb(91,109,140);
+	width:100%;
+	height:50%;
+	position:sticky;
+	position:-webkit-sticky;
+	top:0;
+}
