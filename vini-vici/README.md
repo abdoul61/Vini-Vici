@@ -2,7 +2,7 @@
 
 Submitted by: Souley Abdoul Aziz
 
-This web app: A Biology quiz app
+This web app: Animal Lover app
 
 Time spent: 7 hrs
 
@@ -10,31 +10,12 @@ Time spent: 7 hrs
 
 The following **required** functionality is completed:
 
-- [X] The title of the card set and some information about it,
-- [X] A single card at a time is displayed, only showing one of the components of the information pair
-- [X] A single card at a time is displayed, only showing one of the components of the information pair
-- [X] Clicking on the card shows the corresponding component of the information pair
-- [X] Clicking the next button displays a random new card
-
-## Updated features week 3 
-- [X] The user can enter their guess in a box before seeing the flipside of the card
-- [X] Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect
-- [X] A back button displayed on the card can be used to return to the previous card in a set sequence
-- [X] A next button displayed on the card can be used to navigate to the next card in a set sequence
-
-The following **optional** features are implemented:
-
-- [X] Cards contains images in addition to or in place of text
-- [X] Cards have different visual styles such as color based on their category
-  - [X] *visual style implemented*
-
-The following **additional** features are implemented:
-
-* [X] List anything else that you added to improve the site's functionality!
-
-## updated Strech Features week 3 
-- [X] A shuffle button can be used to randomize the order of the cards
-- [X] A counter displays the user’s current and longest streak of correct responses
+- [X] Clicking a button creates a new API fetch request and displays at least three attributes from the returned JSON data
+- [X] Only one item/API call is viewable at a time
+- [X] API calls should appear random to the user
+- [X] At least one image is displayed per API call
+- [X] Clicking on a displayed value for one attribute adds it to a displayed ban list
+- [X] Attributes on the ban list prevent further images/API results with that attribute from being displayed
 
 
 ## Video Walkthrough
@@ -45,7 +26,7 @@ https://user-images.githubusercontent.com/43356482/226513476-977a9c91-b095-4368-
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
-<!-- Recommended tools:
+<!-- Recommended tools: -->
 [Kap](https://getkap.co/) for macOS
 
 ## Notes
