@@ -19,6 +19,7 @@ const handleButtonClick = () =>{
 	  getData();	
 	}
 
+
 const key = import.meta.env.VITE_API;
 //console.log(key);
 const URL = `https://api.thedogapi.com/v1/images/search?limit=10&has_breeds=true&include_breeds=true&include_categories=true&api_key=${key}`;
@@ -38,7 +39,7 @@ useEffect(()=>{
 	},[])
 
 
-console.log(dta);
+// console.log(dta);
 	return (
 	   <div className="middle">
 			<h1 className="title">{name === " "? "Dog Lover!":name}</h1>
