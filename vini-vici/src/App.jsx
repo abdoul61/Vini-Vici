@@ -29,7 +29,7 @@ useEffect(()=>{
 const getData = async () =>{
 	 const response = await axios.get(URL);	
 		// console.log(response.data[0]);
-	 console.log("This is ",response.data[index]);
+	 // console.log("This is ",response.data[index]);
 	 const data_url = response.data;
 	 setData(data_url);
 	}
@@ -79,7 +79,7 @@ const filterD = fileterData.map((el,index)=>{
 	})
 //	console.log(seenData);
 
-console.log(dta && typeof(dta[index].breeds[0].weight.metric));
+// console.log(dta && typeof(dta[index].breeds[0].weight.metric));
 
 
   return (
